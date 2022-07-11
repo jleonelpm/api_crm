@@ -1,0 +1,36 @@
+{
+  "clientes": [
+    {
+      "nombre": "Jose Leonel",
+      "empresa": "Freelance",
+      "email": "jleonelpm@hotmail.com",
+      "telefono": "9851163050",
+      "notas": "na",
+      "id": 1
+    },
+    {
+      "nombre": "Abril Guadalupe",
+      "empresa": "Mundo de Peppa",
+      "email": "abrilita@kids.com",
+      "telefono": "9851182020",
+      "notas": "juega mucho",
+      "id": 2
+    },
+    {
+      "nombre": "Miguel",
+      "empresa": "SSA",
+      "email": "miguel.ssa@hotmail.com",
+      "telefono": "654688975",
+      "notas": "Ninguna",
+      "id": 11
+    },
+    {
+      "nombre": "Jesus Emmanuel",
+      "empresa": "Contaduria",
+      "email": "jesus.emma@hotmail.com",
+      "telefono": "546789465464",
+      "notas": "Ahorro",
+      "id": 12
+    }
+  ]
+}
