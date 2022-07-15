@@ -13,7 +13,7 @@ const Inicio = () => {
     const obtenerClientesAPI = async () => {
       try {
 
-        const url = "http://localhost:4000/clientes"
+        const url = import.meta.env.VITE_API_URL
 
         const respuesta = await fetch(url) //el metodo por defecto de una peticion fetch es GET
         //if (resultado == 200)
@@ -41,7 +41,7 @@ const handleEliminar = async id => {
 
   if (confirmar){
     try {
-      const url = `http://localhost:4000/clientes/${id}`
+      const url = `${import.meta.env.VITE_API_URL}/${id}`
       const respuesta = await fetch(url, {
         method : 'DELETE'
       })

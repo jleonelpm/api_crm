@@ -21,7 +21,7 @@ const Cliente = ({cliente, handleEliminar}) => {
         <button
         type='button'
         className='bg-green-500 hover:bg-green-300 block w-full text-white uppercase p-1 font-bold text-xs rounded-md'
-        onClick={() => navigate (`/clientes/${id}`)} //Usar backtick en lugar de comillas
+        onClick={() => navigate (`/${id}`)} //Usar backtick en lugar de comillas
         >
             Ver
         </button>
@@ -29,7 +29,7 @@ const Cliente = ({cliente, handleEliminar}) => {
         <button
         type='button'
         className='bg-blue-500 hover:bg-blue-300 block w-full text-white uppercase p-1 font-bold text-xs rounded-md mt-1'
-        onClick={() => navigate (`/clientes/editar/${id}`)} //Usar backtick en lugar de comillas
+        onClick={() => navigate (`/editar/${id}`)} //Usar backtick en lugar de comillas
 
         >
             Editar
